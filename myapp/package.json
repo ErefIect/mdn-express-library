@@ -1,0 +1,32 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "lint": "eslint src/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErefIect/mdn-express-library.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErefIect/mdn-express-library/issues"
+  },
+  "homepage": "https://github.com/ErefIect/mdn-express-library#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "nodemon": "^2.0.20"
+  }
+
+}
